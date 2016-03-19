@@ -8,7 +8,7 @@ Every simulator should provide the following Python interface:
 
 + simulator = Simulator(settings, record=False, seed=None) [ .__init__(settings, record=False, seed=None) ]
 	+ takes settings - a dictionary of key parameters required by the simulator
-	+ 'record=True' would indicate that we want the simulator to save the full record of th simulation - for example, in form of images, video, or time series data
+	+ 'record=True' indicates that the simulator should save the full record of the simulation - for example, in form of images, video, or time series data
 	+  a seed to initialize the random number generator, if None - initialized randomly
 	+ automatically resets the existing simulator
 
