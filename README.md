@@ -4,7 +4,7 @@ This repository stores simulators for reinforcement learning experiments.
 
 # Requirements
 
-Every simulator should provide the following Python interface (with the word 'simulator' replaced by the name of the specific simulator):
+Every simulator should provide the following Python interface:
 
 + simulator = Simulator(settings, record=False, seed=None) [ .__init__(settings, record=False, seed=None) ]
 	+ takes settings - a dictionary of key parameters required by the simulator
