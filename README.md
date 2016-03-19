@@ -30,6 +30,7 @@ Every simulator should provide the following Python interface (with the word 'si
 	+ takes directory name
 	+ returns None
 	+ saves a record of the simulator run/execution up to that point in the specified directory
+	+ Note: can only be run if 'record=True' at the initialization of the simulator
 
 + simulator.copy()
 	return exact copy of the simulator
