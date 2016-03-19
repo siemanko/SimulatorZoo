@@ -1,6 +1,6 @@
 # Simulator Zoo
 
-This repository is a storage for simulators that can be used in reinforcement learning experiments.
+This repository stores simulators for reinforcement learning experiments.
 
 # Requirements
 
