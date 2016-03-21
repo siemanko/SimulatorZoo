@@ -1,59 +1,85 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
 *.so
-*.pyc
 
-# Packages #
-############
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
- 
-# Logs and databases #
-######################
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
 *.log
-*.sql
-*.sqlite
-*.hdf5
- 
-# OS generated files #
-######################
-*.DS_Store
-*.DS_Store?
-*._*
-*.Spotlight-V100
-*.Trashes
-*ehthumbs.db
-*Thumbs.db
+local_settings.py
 
-# Data files #
-##############
-*.csv
-*.jld
-*.mat
-*.p
+# Flask instance folder
+instance/
 
-# Images #
-##########
-*.jpg
-*.jpeg
-*.bitmap
+# Scrapy stuff:
+.scrapy
 
-# Documents #
-#############
-*.eps
-*.pdf
+# Sphinx documentation
+docs/_build/
 
-# Misc #
-########
-*.swp
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
