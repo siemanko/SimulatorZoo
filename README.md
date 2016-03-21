@@ -4,7 +4,7 @@ This repository stores simulators for reinforcement learning experiments.
 
 # Usage Example
 To create a recording of simulator execution
-```python3
+```python
 import json
 from simzoo.colliding_marbles import KarpathyGame
 
