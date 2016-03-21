@@ -64,7 +64,7 @@ class KarpathyGame(object):
         return self.sim.observe()
 
     def is_terminal(self):
-        self.num_frames >= self.max_frames
+        return self.num_frames >= self.max_frames
 
     def act(self, a):
         self.sim.hero.speed += self.actions[a[0]]

@@ -2,6 +2,27 @@
 
 This repository stores simulators for reinforcement learning experiments.
 
+# Usage Example
+To create a recording of simulator execution
+```python3
+import json
+from simzoo.colliding_marbles import KarpathyGame
+
+ACTION_CHOICE = 2
+RECORDING_LOCATION = 'karpathy_recording'
+
+with open("settings_example/karpathy.json") as f:
+	simulator = KarpathyGame(json.load(f), record=True)
+
+simulator = make_simulator(record=True)
+state  = simulator.observe()
+while not simulator.is_terminal():
+    _ = simulator.act(ACTION_CHOICE)
+    state = simulator.observe()
+
+simulator.execution_recording(RECORDING_LOCATION)
+```
+
 # Requirements
 
 Every simulator should provide the following Python interface:
